@@ -14,7 +14,7 @@ namespace TestingClase1
 
             Console.WriteLine("*************************");
 
-            Console.WriteLine("* PORTAL HACIA GATONEKO *");
+            Console.WriteLine("* * PORTAL HACIA GATONEKO * *");
 
             Console.WriteLine("*************************");
 
