@@ -10,7 +10,7 @@ namespace TestingClase1
     {
         static void Main(string[] args)
         {
-            Console.BackgroundColor = ConsoleColor.DarkGreen;
+            Console.BackgroundColor = ConsoleColor.Red;
 
             Console.WriteLine("*************************");
 
