@@ -1,0 +1,14 @@
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TestingAutomation\TestingClase1\bin\Debug\TestingClase1.exe.config
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TestingAutomation\TestingClase1\bin\Debug\TestingClase1.exe
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TestingAutomation\TestingClase1\bin\Debug\TestingClase1.pdb
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TestingAutomation\TestingClase1\obj\Debug\TestingClase1.csproj.AssemblyReference.cache
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TestingAutomation\TestingClase1\obj\Debug\TestingClase1.csproj.CoreCompileInputs.cache
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TestingAutomation\TestingClase1\obj\Debug\TestingClase1.exe
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TestingAutomation\TestingClase1\obj\Debug\TestingClase1.pdb
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase1\bin\Debug\TestingClase1.exe.config
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase1\bin\Debug\TestingClase1.exe
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase1\bin\Debug\TestingClase1.pdb
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase1\obj\Debug\TestingClase1.csproj.AssemblyReference.cache
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase1\obj\Debug\TestingClase1.csproj.CoreCompileInputs.cache
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase1\obj\Debug\TestingClase1.exe
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase1\obj\Debug\TestingClase1.pdb
