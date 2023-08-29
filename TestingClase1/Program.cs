@@ -10,7 +10,7 @@ namespace TestingClase1
     {
         static void Main(string[] args)
         {
-            Console.BackgroundColor = ConsoleColor.Red;
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("*************************");
 
@@ -54,6 +54,7 @@ namespace TestingClase1
             
             /*
             //Esto es un comentario
+            //Otro comentario para ver en git 
 
             //const string hola = "Emanuel";
             Console.WriteLine("Bienvenido Dante");
