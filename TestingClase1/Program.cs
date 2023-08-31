@@ -58,50 +58,6 @@ namespace TestingClase1
             Console.ReadKey();
 
 
-
-
-            /*
-             * 
-             * Proyecto para Dante desde aca
-            Console.BackgroundColor = ConsoleColor.DarkBlue;
-
-            Console.WriteLine("###################################\n" +
-                              "#       PORTAL A GATONEKO         #\n" +
-                              "###################################");
-
-            Console.WriteLine("Hola, ¿como te llamas?");
-
-            var usuario = Console.ReadLine();  //Si es dante ahh oi hablar de vos... 
-
-            Console.WriteLine($"Bienvenido {usuario}");
-
-            Console.WriteLine("Queres ir a GATONEKO?");
-
-            Console.WriteLine("Escribi, SI o NO");
-
-            String respuesta = Console.ReadLine();
-
-
-              if (respuesta == "SI" || respuesta == "si" || respuesta == "Si")
-
-               {
-
-                   Console.WriteLine("Veni al campito");
-
-               }
-
-
-
-            else
-
-                {
-                   Console.WriteLine("Anda a Dormir");
-                }
-
-            */
-
-
-
         }
 
 
