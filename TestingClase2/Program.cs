@@ -10,7 +10,7 @@ namespace TestingClase2
     {
         static void Main(string[] args)
         {
-
+            int primerNumero = int.Parse(Console.ReadLine());
 
         }
     }
