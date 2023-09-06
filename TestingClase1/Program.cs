@@ -20,13 +20,14 @@ namespace TestingClase1
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("###################################\n" +
-                              "#       TESTING AUTOMATION        #\n" +
+                              "#      * TESTING AUTOMATION *     #\n" +
                               "###################################");
 
             Console.WriteLine("\n");
             Console.WriteLine("¡Hola!, Ingresa tu nombre por favor:");
             var nombre = Console.ReadLine();
             Console.WriteLine("\n");
+
             Console.WriteLine($"Mucho gusto, {nombre}");
             Console.WriteLine("\n");
             Console.WriteLine("Ingresa tu apellido, por favor:");
