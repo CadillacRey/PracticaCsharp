@@ -1,0 +1,16 @@
+F:\GIT\PracticaCsharp\PracticandoUno\bin\Debug\net5.0\PracticandoUno.exe
+F:\GIT\PracticaCsharp\PracticandoUno\bin\Debug\net5.0\PracticandoUno.deps.json
+F:\GIT\PracticaCsharp\PracticandoUno\bin\Debug\net5.0\PracticandoUno.runtimeconfig.json
+F:\GIT\PracticaCsharp\PracticandoUno\bin\Debug\net5.0\PracticandoUno.runtimeconfig.dev.json
+F:\GIT\PracticaCsharp\PracticandoUno\bin\Debug\net5.0\PracticandoUno.dll
+F:\GIT\PracticaCsharp\PracticandoUno\bin\Debug\net5.0\ref\PracticandoUno.dll
+F:\GIT\PracticaCsharp\PracticandoUno\bin\Debug\net5.0\PracticandoUno.pdb
+F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\PracticandoUno.csproj.AssemblyReference.cache
+F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\PracticandoUno.GeneratedMSBuildEditorConfig.editorconfig
+F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\PracticandoUno.AssemblyInfoInputs.cache
+F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\PracticandoUno.AssemblyInfo.cs
+F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\PracticandoUno.csproj.CoreCompileInputs.cache
+F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\PracticandoUno.dll
+F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\ref\PracticandoUno.dll
+F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\PracticandoUno.pdb
+F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\PracticandoUno.genruntimeconfig.cache
