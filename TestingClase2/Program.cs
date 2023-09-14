@@ -11,8 +11,14 @@ namespace TestingClase2
 
         static void Main(string[] args)
         {
-            //int primerNumero = int.Parse(Console.ReadLine());
-            Console.WriteLine("Ingresa un numero"); //Aca pido 2 nums por entrada y los sumo a la fun
+            Console.BackgroundColor = ConsoleColor.DarkBlue;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("###################################\n" +
+                              "#      * TESTING AUTOMATION *     #\n" +
+                              "###################################");
+
+            //int primerNumero = int.Parse(Console.ReadLine()); //asi se parsea
+            Console.WriteLine("Ingresa un numero"); //Aca pido 2 nums por entrada y los sumo a la función
             int num1 = int.Parse(Console.ReadLine());
             int num2 = int.Parse(Console.ReadLine());
             Console.WriteLine(Suma(num1, num2));
@@ -23,14 +29,11 @@ namespace TestingClase2
 
             Console.ReadKey();
 
-
-
-
         }
 
         public static void BuenoAdios()//Metodo de Saludar
         {
-            Console.WriteLine("Bueno nos vemo en Disney");
+            Console.WriteLine("Bueno nos vemo' en Disney");
         }
 
         public static int Suma(int num1, int num2)
