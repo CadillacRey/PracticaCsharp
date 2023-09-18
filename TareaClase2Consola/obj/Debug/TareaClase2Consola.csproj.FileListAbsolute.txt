@@ -1,0 +1,6 @@
+F:\GIT\PracticaCsharp\TareaClase2Consola\bin\Debug\TareaClase2Consola.exe.config
+F:\GIT\PracticaCsharp\TareaClase2Consola\bin\Debug\TareaClase2Consola.exe
+F:\GIT\PracticaCsharp\TareaClase2Consola\bin\Debug\TareaClase2Consola.pdb
+F:\GIT\PracticaCsharp\TareaClase2Consola\obj\Debug\TareaClase2Consola.csproj.CoreCompileInputs.cache
+F:\GIT\PracticaCsharp\TareaClase2Consola\obj\Debug\TareaClase2Consola.exe
+F:\GIT\PracticaCsharp\TareaClase2Consola\obj\Debug\TareaClase2Consola.pdb

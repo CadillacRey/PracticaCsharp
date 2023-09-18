@@ -1,0 +1,7 @@
+F:\GIT\PracticaCsharp\TareaClase1Consola\bin\Debug\TareaClase1Consola.exe.config
+F:\GIT\PracticaCsharp\TareaClase1Consola\bin\Debug\TareaClase1Consola.exe
+F:\GIT\PracticaCsharp\TareaClase1Consola\bin\Debug\TareaClase1Consola.pdb
+F:\GIT\PracticaCsharp\TareaClase1Consola\obj\Debug\TareaClase1Consola.csproj.AssemblyReference.cache
+F:\GIT\PracticaCsharp\TareaClase1Consola\obj\Debug\TareaClase1Consola.csproj.CoreCompileInputs.cache
+F:\GIT\PracticaCsharp\TareaClase1Consola\obj\Debug\TareaClase1Consola.exe
+F:\GIT\PracticaCsharp\TareaClase1Consola\obj\Debug\TareaClase1Consola.pdb
