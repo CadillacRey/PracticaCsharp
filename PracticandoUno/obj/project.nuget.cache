@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MlcyIhtf/blujFQDCc4rEVMplacrU0OUuD24QuIeKsQ6cULFAWvCzYBwF/G2sENo9fus+b0/iNrqaxknFTxo1w==",
+  "dgSpecHash": "9ydODjSaHvgoREWJUJaSUPbdXG6E48Ph0Ez0Ge6PLhOqZiEWI5boMqTBKNX/d72eB4Wu0Lmfgjso4b2/DJVN5g==",
   "success": true,
   "projectFilePath": "F:\\GIT\\PracticaCsharp\\PracticandoUno\\PracticandoUno.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ema\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
