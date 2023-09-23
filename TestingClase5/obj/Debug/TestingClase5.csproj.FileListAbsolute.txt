@@ -1,0 +1,7 @@
+F:\GIT\PracticaCsharp\TestingClase5\bin\Debug\TestingClase5.exe.config
+F:\GIT\PracticaCsharp\TestingClase5\bin\Debug\TestingClase5.exe
+F:\GIT\PracticaCsharp\TestingClase5\bin\Debug\TestingClase5.pdb
+F:\GIT\PracticaCsharp\TestingClase5\obj\Debug\TestingClase5.csproj.AssemblyReference.cache
+F:\GIT\PracticaCsharp\TestingClase5\obj\Debug\TestingClase5.csproj.CoreCompileInputs.cache
+F:\GIT\PracticaCsharp\TestingClase5\obj\Debug\TestingClase5.exe
+F:\GIT\PracticaCsharp\TestingClase5\obj\Debug\TestingClase5.pdb
