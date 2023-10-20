@@ -4,3 +4,10 @@ F:\GIT\PracticaCsharp\TareaClase2Consola\bin\Debug\TareaClase2Consola.pdb
 F:\GIT\PracticaCsharp\TareaClase2Consola\obj\Debug\TareaClase2Consola.csproj.CoreCompileInputs.cache
 F:\GIT\PracticaCsharp\TareaClase2Consola\obj\Debug\TareaClase2Consola.exe
 F:\GIT\PracticaCsharp\TareaClase2Consola\obj\Debug\TareaClase2Consola.pdb
+C:\TESTING AUTOMATION\TestingAutomation\TareaClase2Consola\bin\Debug\TareaClase2Consola.exe.config
+C:\TESTING AUTOMATION\TestingAutomation\TareaClase2Consola\bin\Debug\TareaClase2Consola.exe
+C:\TESTING AUTOMATION\TestingAutomation\TareaClase2Consola\bin\Debug\TareaClase2Consola.pdb
+C:\TESTING AUTOMATION\TestingAutomation\TareaClase2Consola\obj\Debug\TareaClase2Consola.csproj.AssemblyReference.cache
+C:\TESTING AUTOMATION\TestingAutomation\TareaClase2Consola\obj\Debug\TareaClase2Consola.csproj.CoreCompileInputs.cache
+C:\TESTING AUTOMATION\TestingAutomation\TareaClase2Consola\obj\Debug\TareaClase2Consola.exe
+C:\TESTING AUTOMATION\TestingAutomation\TareaClase2Consola\obj\Debug\TareaClase2Consola.pdb

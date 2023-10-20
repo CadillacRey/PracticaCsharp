@@ -5,3 +5,10 @@ F:\GIT\PracticaCsharp\TestingClase5\obj\Debug\TestingClase5.csproj.AssemblyRefer
 F:\GIT\PracticaCsharp\TestingClase5\obj\Debug\TestingClase5.csproj.CoreCompileInputs.cache
 F:\GIT\PracticaCsharp\TestingClase5\obj\Debug\TestingClase5.exe
 F:\GIT\PracticaCsharp\TestingClase5\obj\Debug\TestingClase5.pdb
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase5\bin\Debug\TestingClase5.exe.config
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase5\bin\Debug\TestingClase5.exe
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase5\bin\Debug\TestingClase5.pdb
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase5\obj\Debug\TestingClase5.csproj.AssemblyReference.cache
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase5\obj\Debug\TestingClase5.csproj.CoreCompileInputs.cache
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase5\obj\Debug\TestingClase5.exe
+C:\TESTING AUTOMATION\TestingAutomation\TestingClase5\obj\Debug\TestingClase5.pdb

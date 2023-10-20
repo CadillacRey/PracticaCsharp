@@ -1,0 +1,7 @@
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TareaConductor1\TareaConductor\bin\Debug\TareaConductor.exe.config
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TareaConductor1\TareaConductor\bin\Debug\TareaConductor.exe
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TareaConductor1\TareaConductor\bin\Debug\TareaConductor.pdb
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TareaConductor1\TareaConductor\obj\Debug\TareaConductor.csproj.AssemblyReference.cache
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TareaConductor1\TareaConductor\obj\Debug\TareaConductor.csproj.CoreCompileInputs.cache
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TareaConductor1\TareaConductor\obj\Debug\TareaConductor.exe
+C:\Users\emreynoso\Desktop\TESTING AUTOMATION\TareaConductor1\TareaConductor\obj\Debug\TareaConductor.pdb
