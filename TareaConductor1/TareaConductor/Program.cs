@@ -13,7 +13,7 @@ namespace TareaConductor
         static void Main(string[] args)
         {
             // Creación de objetos de la clase Auto
-            Auto auto1 = new Auto("Ferrari", "Gallardo", "AA123CB");
+            Auto auto1 = new Auto("Ferrari", "Gallardo", "AA123BC");
             Auto auto2 = new Auto("Lamborghini", "Diablo", "AA123DE");
 
             // Creación de objetos de la clase Conductor
