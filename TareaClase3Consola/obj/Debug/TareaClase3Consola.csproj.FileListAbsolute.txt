@@ -1,0 +1,7 @@
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase3Consola\bin\Debug\TareaClase3Consola.exe.config
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase3Consola\bin\Debug\TareaClase3Consola.exe
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase3Consola\bin\Debug\TareaClase3Consola.pdb
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase3Consola\obj\Debug\TareaClase3Consola.csproj.AssemblyReference.cache
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase3Consola\obj\Debug\TareaClase3Consola.csproj.CoreCompileInputs.cache
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase3Consola\obj\Debug\TareaClase3Consola.exe
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase3Consola\obj\Debug\TareaClase3Consola.pdb
