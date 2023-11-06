@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "5nq/HPGSbJHW4TN1dqiGlfdDW1MTKVycSfhOMJ2Zd+pmDXsAswYVQvPQ6NNEfQ4mCwKkkDN9BNBgO4q2bXY5ig==",
+  "dgSpecHash": "+Ww4d6MxRUOUeeKP6zs5scdk0BgIhHNpoFAi7uaTDHtOEGl+t2qWqiwrOdgUOVRMOpYC+5JZ4oey6SyzRP6WBA==",
   "success": true,
-  "projectFilePath": "C:\\TESTING AUTOMATION\\TestingAutomation\\PracticandoUno\\PracticandoUno.csproj",
+  "projectFilePath": "F:\\GIT\\PracticaCsharp\\PracticandoUno\\PracticandoUno.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\emreynoso\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\emreynoso\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\emreynoso\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\emreynoso\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+    "C:\\Users\\Ema\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ema\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ema\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Ema\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
   ],
   "logs": []
 }
