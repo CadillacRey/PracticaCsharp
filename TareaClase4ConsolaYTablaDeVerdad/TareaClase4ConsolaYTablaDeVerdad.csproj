@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{56DA0762-9D81-4477-8199-21F35637B919}</ProjectGuid>
+    <ProjectGuid>{635702EA-2F2B-43F2-9306-128B434EF53D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>TareaClase4ConsolaYTablaDeVerdad</RootNamespace>
     <AssemblyName>TareaClase4ConsolaYTablaDeVerdad</AssemblyName>

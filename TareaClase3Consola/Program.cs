@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace TareaClase3Consola
 {
-    public class Program
+    internal class Program
     {
         static void Main(string[] args)
-
         {
             //Tarea Ejercicio 3 Reynoso. Junte todos los ejercicios en funciones. 
             Console.Beep();
@@ -62,112 +61,110 @@ namespace TareaClase3Consola
             }
 
 
-        }    
+        }
 
-            static void Ejercicio1()
-            {
-                Console.WriteLine("Ejercicio 1 - Agregar producto al stock");
-                Console.WriteLine("Ingresá el nombre del producto:");
+        static void Ejercicio1()
+        {
+            Console.WriteLine("Ejercicio 1 - Agregar producto al stock");
+            Console.WriteLine("Ingresá el nombre del producto:");
 
-                string nombreProducto = Console.ReadLine();
+            string nombreProducto = Console.ReadLine();
 
-                Console.WriteLine("Ingresá el precio del producto en enteros:");
-                decimal precioProducto = Convert.ToDecimal(Console.ReadLine()); //Voy a usar Convert.ToDecimal en vez de Parse
+            Console.WriteLine("Ingresá el precio del producto en enteros:");
+            decimal precioProducto = Convert.ToDecimal(Console.ReadLine()); //Voy a usar Convert.ToDecimal en vez de Parse
 
             Console.WriteLine("Ingresá la cantidad de productos en enteros:");
-                int cantidadProductos = Convert.ToInt32(Console.ReadLine()); //Voy a usar Convert.ToInt32 en vez de Parse
+            int cantidadProductos = Convert.ToInt32(Console.ReadLine()); //Voy a usar Convert.ToInt32 en vez de Parse
 
-                Console.WriteLine("Producto ingresado:");
-                Console.WriteLine("Nombre: " + nombreProducto);
-                Console.WriteLine("Precio: $" + precioProducto.ToString("0.00"));
-                Console.WriteLine("Cantidad: " + cantidadProductos);
-            }
+            Console.WriteLine("Producto ingresado:");
+            Console.WriteLine("Nombre: " + nombreProducto);
+            Console.WriteLine("Precio: $" + precioProducto.ToString("0.00"));
+            Console.WriteLine("Cantidad: " + cantidadProductos);
+        }
 
-            static void Ejercicio2()
-            {
-                Console.WriteLine("Ejercicio 2 - Cotización de dólares a pesos");
+        static void Ejercicio2()
+        {
+            Console.WriteLine("Ejercicio 2 - Cotización de dólares a pesos");
 
-                decimal cotizacionDolar = 720;
-                Console.WriteLine("Ingresá la cantidad de dólares a cotizar:");
-                decimal cantidadDolares = Convert.ToDecimal(Console.ReadLine());
+            decimal cotizacionDolar = 720;
+            Console.WriteLine("Ingresá la cantidad de dólares a cotizar:");
+            decimal cantidadDolares = Convert.ToDecimal(Console.ReadLine());
 
-                decimal cotizacionEnPesos = cotizacionDolar * cantidadDolares;
+            decimal cotizacionEnPesos = cotizacionDolar * cantidadDolares;
 
-                Console.WriteLine("Cotización en pesos: $" + cotizacionEnPesos.ToString("0.00"));
-            }
+            Console.WriteLine("Cotización en pesos: $" + cotizacionEnPesos.ToString("0.00"));
+        }
 
-            static void Ejercicio3()
-            {
-                Console.WriteLine("Ejercicio 3 - Cálculo del precio total de compra de cerveza");
+        static void Ejercicio3()
+        {
+            Console.WriteLine("Ejercicio 3 - Cálculo del precio total de compra de cerveza");
 
-                string producto = "Cerveza Pilsen Gold";
-                decimal precioUnitario = 500;
+            string producto = "Cerveza Pilsen Gold";
+            decimal precioUnitario = 500;
 
-                Console.WriteLine("Producto deseado: " + producto);
-                Console.WriteLine("Precio unitario: $" + precioUnitario.ToString("0.00"));
+            Console.WriteLine("Producto deseado: " + producto);
+            Console.WriteLine("Precio unitario: $" + precioUnitario.ToString("0.00"));
 
-                Console.WriteLine("Ingresá la cantidad de unidades a comprar:");
-                int cantidadUnidades = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Ingresá la cantidad de unidades a comprar:");
+            int cantidadUnidades = Convert.ToInt32(Console.ReadLine());
 
-                decimal precioTotal = precioUnitario * cantidadUnidades;
+            decimal precioTotal = precioUnitario * cantidadUnidades;
 
-                Console.WriteLine("Precio total de la compra: $" + precioTotal.ToString("0.00"));
-            }
+            Console.WriteLine("Precio total de la compra: $" + precioTotal.ToString("0.00"));
+        }
 
-            static void Ejercicio4()
-            {
-                Console.WriteLine("Ejercicio 4 - Cálculo del vuelto al realizar un pago");
+        static void Ejercicio4()
+        {
+            Console.WriteLine("Ejercicio 4 - Cálculo del vuelto al realizar un pago");
 
-                Console.WriteLine("Ingresá el precio total de la compra:");
-                decimal precioTotal = Convert.ToDecimal(Console.ReadLine());
+            Console.WriteLine("Ingresá el precio total de la compra:");
+            decimal precioTotal = Convert.ToDecimal(Console.ReadLine());
 
-                Console.WriteLine("Ingresá la cantidad que desea abonar:");
-                decimal cantidadAbonar = Convert.ToDecimal(Console.ReadLine());
+            Console.WriteLine("Ingresá la cantidad que desea abonar:");
+            decimal cantidadAbonar = Convert.ToDecimal(Console.ReadLine());
 
-                decimal vuelto = cantidadAbonar - precioTotal;
+            decimal vuelto = cantidadAbonar - precioTotal;
 
-                Console.WriteLine("Vuelto a obtener: $" + vuelto.ToString("0.00"));
-            }
+            Console.WriteLine("Vuelto a obtener: $" + vuelto.ToString("0.00"));
+        }
 
-            static void Ejercicio5()
-            {
-                Console.WriteLine("Ejercicio 5 - Cálculo del costo total con envío a domicilio");
+        static void Ejercicio5()
+        {
+            Console.WriteLine("Ejercicio 5 - Cálculo del costo total con envío a domicilio");
 
-                decimal costoEnvio = 2000;
-                Console.WriteLine("Ingresá el precio de la compra:");
-                decimal precioCompra = Convert.ToDecimal(Console.ReadLine());
+            decimal costoEnvio = 2000;
+            Console.WriteLine("Ingresá el precio de la compra:");
+            decimal precioCompra = Convert.ToDecimal(Console.ReadLine());
 
-                decimal costoTotal = costoEnvio + precioCompra;
+            decimal costoTotal = costoEnvio + precioCompra;
 
-                Console.WriteLine("Costo total (incluyendo envío): $" + costoTotal.ToString("0.00"));
-            }
+            Console.WriteLine("Costo total (incluyendo envío): $" + costoTotal.ToString("0.00"));
+        }
 
-            static void Ejercicio6()
-            {
-                Console.WriteLine("Ejercicio 6 - Operaciones con 3 valores");
+        static void Ejercicio6()
+        {
+            Console.WriteLine("Ejercicio 6 - Operaciones con 3 valores");
 
-                Console.WriteLine("Ingresá el primer valor:");
-                double valor1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingresá el primer valor:");
+            double valor1 = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine("Ingresá el segundo valor:");
-                double valor2 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingresá el segundo valor:");
+            double valor2 = Convert.ToDouble(Console.ReadLine());
 
-                Console.WriteLine("Ingresá el tercer valor:");
-                double valor3 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Ingresá el tercer valor:");
+            double valor3 = Convert.ToDouble(Console.ReadLine());
 
-                double suma = valor1 + valor2 + valor3;
-                double resta = valor1 - valor3;
-                double multiplicacion = valor1 * valor2;
-                double division = valor1 / valor2;
-                double resto = valor2 % valor3;
+            double suma = valor1 + valor2 + valor3;
+            double resta = valor1 - valor3;
+            double multiplicacion = valor1 * valor2;
+            double division = valor1 / valor2;
+            double resto = valor2 % valor3;
 
-                Console.WriteLine("Suma de los 3 valores: " + suma);
-                Console.WriteLine("Resta del primer y tercer número: " + resta);
-                Console.WriteLine("Multiplicación del primer y segundo número: " + multiplicacion);
-                Console.WriteLine("División del primer y segundo número: " + division);
-                Console.WriteLine("Resto de la división entre el segundo y tercer número: " + resto);
-            }
+            Console.WriteLine("Suma de los 3 valores: " + suma);
+            Console.WriteLine("Resta del primer y tercer número: " + resta);
+            Console.WriteLine("Multiplicación del primer y segundo número: " + multiplicacion);
+            Console.WriteLine("División del primer y segundo número: " + division);
+            Console.WriteLine("Resto de la división entre el segundo y tercer número: " + resto);
         }
     }
-    
-
+}
