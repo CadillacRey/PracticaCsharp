@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareaClase3Consola", "Tarea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TareaClase4ConsolaYTablaDeVerdad", "TareaClase4ConsolaYTablaDeVerdad\TareaClase4ConsolaYTablaDeVerdad.csproj", "{635702EA-2F2B-43F2-9306-128B434EF53D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestingClase12Automation", "TestingClase12Automation\TestingClase12Automation.csproj", "{B346452F-BF8B-4C22-BABD-BADC28B79815}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{635702EA-2F2B-43F2-9306-128B434EF53D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{635702EA-2F2B-43F2-9306-128B434EF53D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{635702EA-2F2B-43F2-9306-128B434EF53D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B346452F-BF8B-4C22-BABD-BADC28B79815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B346452F-BF8B-4C22-BABD-BADC28B79815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B346452F-BF8B-4C22-BABD-BADC28B79815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B346452F-BF8B-4C22-BABD-BADC28B79815}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
