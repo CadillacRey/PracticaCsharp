@@ -10,7 +10,7 @@ namespace TareaClase3Consola
     {
         static void Main(string[] args)
         {
-            //Tarea Ejercicio 3 Reynoso. Junte todos los ejercicios en funciones. 
+            //Tarea 3 Reynoso. Junte todos los ejercicios en funciones. 
             Console.Beep();
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;

@@ -1,0 +1,7 @@
+F:\GIT\PracticaCsharp\TareaClase4ConsolaYTablaDeVerdad\bin\Debug\TareaClase4ConsolaYTablaDeVerdad.exe.config
+F:\GIT\PracticaCsharp\TareaClase4ConsolaYTablaDeVerdad\bin\Debug\TareaClase4ConsolaYTablaDeVerdad.exe
+F:\GIT\PracticaCsharp\TareaClase4ConsolaYTablaDeVerdad\bin\Debug\TareaClase4ConsolaYTablaDeVerdad.pdb
+F:\GIT\PracticaCsharp\TareaClase4ConsolaYTablaDeVerdad\obj\Debug\TareaClase4ConsolaYTablaDeVerdad.csproj.AssemblyReference.cache
+F:\GIT\PracticaCsharp\TareaClase4ConsolaYTablaDeVerdad\obj\Debug\TareaClase4ConsolaYTablaDeVerdad.csproj.CoreCompileInputs.cache
+F:\GIT\PracticaCsharp\TareaClase4ConsolaYTablaDeVerdad\obj\Debug\TareaClase4ConsolaYTablaDeVerdad.exe
+F:\GIT\PracticaCsharp\TareaClase4ConsolaYTablaDeVerdad\obj\Debug\TareaClase4ConsolaYTablaDeVerdad.pdb

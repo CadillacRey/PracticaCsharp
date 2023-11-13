@@ -10,6 +10,7 @@ namespace TareaClase4ConsolaYTablaDeVerdad
     {
         static void Main(string[] args)
         {
+            //Tarea 4 Reynoso
             Console.Beep();
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;

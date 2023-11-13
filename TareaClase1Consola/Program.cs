@@ -11,11 +11,13 @@ namespace TareaClase1Consola
         static void Main(string[] args)
         {
             //Tarea 1 Reynoso
+            Console.Beep();
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("###################################\n" +
                               "#        TESTING AUTOMATION       #\n" +
                               "###################################");
+            Console.ResetColor();
             //Combine todo para que quedara mejor al final
             Console.WriteLine("\n");
             Console.WriteLine("¡Hola!, Ingresa tu nombre, por favor:");

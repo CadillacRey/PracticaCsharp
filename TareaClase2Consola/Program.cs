@@ -8,7 +8,7 @@ namespace TareaClase2Consola
 {
     class Calculadora
     {
-        //Clase 2 Reynoso
+        
         //Funciones con las operaciones basicas.
         //-------------------------------------------
         // Método para sumar dos números
@@ -45,6 +45,8 @@ namespace TareaClase2Consola
     {
         static void Main()
         {
+            //Tarea 2 Reynoso
+            Console.Beep();
             Console.BackgroundColor = ConsoleColor.DarkBlue;
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("###################################\n" +
