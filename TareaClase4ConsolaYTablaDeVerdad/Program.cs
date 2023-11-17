@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TareaClase4ConsolaYTablaDeVerdad
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -18,38 +18,58 @@ namespace TareaClase4ConsolaYTablaDeVerdad
                               "#        TESTING AUTOMATION       #\n" +
                               "###################################");
             Console.WriteLine("\n");
-
-            int numero;
-
+            Console.ResetColor();
             while (true)
             {
-                Console.WriteLine("Ingrese un número entre 1 y 10:");
-                string entradaPorTeclado = Console.ReadLine();
-
                 try
                 {
-                    numero = int.Parse(entradaPorTeclado);
+                    Console.WriteLine("Seleccione una opción:");
+                    Console.WriteLine("1. Machete de tablas del 1 al 10");
+                    Console.WriteLine("2. Salir");
 
-                    if (numero >= 1 && numero <= 10)
+                    // Solicito al usuario que seleccione una opción para entrar al bucle
+                    Console.Write("Opción: ");
+                    int opcion = int.Parse(Console.ReadLine());
+
+                    switch (opcion)
                     {
-                        Console.WriteLine($"Tabla de multiplicar del {numero}:");
+                        case 1:
+                            //Acá ya en el machete solicito al usuario que ingrese un número
+                            Console.Write("Ingrese un número entre 1 y 10: ");
+                            int numero = int.Parse(Console.ReadLine());
 
-                        for (int i = 0; i <= 10; i++)
-                        {
-                            int resultado = numero * i;
-                            Console.WriteLine($"{numero} x {i} = {resultado}");
-                        }
+                            //Verificar el número
+                            if (numero >= 1 && numero <= 10)
+                            {
+                                //Mostrar las multiplicaciones del número ingresado del 0 al 10
+                                Console.WriteLine($"Tabla de multiplicar del {numero}:");
+                                for (int i = 0; i <= 10; i++)
+                                {
+                                    int resultado = numero * i;
+                                    Console.WriteLine($"{numero} x {i} = {resultado}");
+                                }
+                            }
+                            else
+                            {
+                                Console.WriteLine("Ingreso inválido. El número debe estar entre 1 y 10. Intente nuevamente.");
+                            }
+                            break;
 
-                        break;  // Salir del bucle si se ingresa un número válido
+                        case 2:
+                            //Salir del programa
+                            Console.WriteLine("¡Hasta luego!");
+                            return;
+
+                        default:
+                            Console.WriteLine("Opción inválida. Intente nuevamente.");
+                            break;
                     }
-                    else
-                    {
-                        Console.WriteLine("Número fuera del rango permitido. Intente nuevamente.");
-                    }
+
+                    Console.ReadKey();
                 }
                 catch (FormatException)
                 {
-                    Console.WriteLine("Ingreso no es un número válido. Intente nuevamente.");
+                    Console.WriteLine("Ingreso inválido. Por favor, ingrese un número entero. Intente nuevamente.");
                 }
             }
         }

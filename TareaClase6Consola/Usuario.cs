@@ -4,7 +4,8 @@ namespace TareaClase6Consola
 {
     public class Usuario
     {
-        /*Crear la clase "Usuario" con las propiedades "nombre del usuario", "apellido del usuario", "mail del usuario", "contraseña",
+        /*Tarea 6 Reynoso
+         * Crear la clase "Usuario" con las propiedades "nombre del usuario", "apellido del usuario", "mail del usuario", "contraseña",
          * "fecha de nacimiento del usuario", "dirección del usuario" y "teléfono del usuario'", y
          * el método "Comprar" (con un WriteLine que diga el nombre y apellido, "esta comprando").
          */
@@ -18,8 +19,7 @@ namespace TareaClase6Consola
 
         public void Comprar()
         {
-            Console.WriteLine($"{NombreDelUsuario} {ApellidoDelUsuario} está comprando:");
-            
+            Console.WriteLine($"{NombreDelUsuario} {ApellidoDelUsuario} está comprando:");         
         }
     }
 

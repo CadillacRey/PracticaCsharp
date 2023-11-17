@@ -30,7 +30,7 @@ namespace TestingClase12Automation
                 //seleccione el textbox
                 IWebElement textBox = driver.FindElement(By.XPath("//input[@id='input']"));
 
-                //hago clicl
+                //hago click
                 textBox.Click();
 
                 //envio el texto
@@ -39,7 +39,7 @@ namespace TestingClase12Automation
                 //seleccionamos el boton
                 IWebElement boton = driver.FindElement(By.XPath("//input[@class='button']"));
 
-                //hacemos clic en el boton
+                //hacemos click en el boton
                 boton.Click();
 
                 try // intenta buscar por etiqueta
