@@ -24,19 +24,19 @@ namespace TareaClase3PseudoCodigo
                 Escribir("Ingrese nombre del usuario:")
                 Leer(nombreUsuario)
 
-                Escribir("Ingrese apellido del usuario:")
+                EscribirEnConsola("Ingrese apellido del usuario:")
                 Leer(apellidoUsuario)
 
-                Escribir("Ingrese mail del usuario:")
+                EscribirEnConsola("Ingrese mail del usuario:")
                 Leer(mailUsuario)
 
-                Escribir("Ingrese fecha de nacimiento del usuario:")
+                EscribirEnConsola("Ingrese fecha de nacimiento del usuario:")
                 Leer(fechaNacimientoUsuario)
 
-                Escribir("Ingrese dirección del usuario:")
+                EscribirEnConsola("Ingrese dirección del usuario:")
                 Leer(direccionUsuario)
 
-                Escribir("Ingrese teléfono del usuario:")
+                EscribirEnConsola("Ingrese teléfono del usuario:")
                 Leer(telefonoUsuario)
 
                 // Mostrar información registrada
@@ -50,6 +50,37 @@ namespace TareaClase3PseudoCodigo
                Fin
              * 
              */
-        }
-    }
+
+            /*
+             * Inicio
+            // Declaración de variables
+            saldoSUBE: real = 1000
+            viajesComunes: entero = 0
+            viajesRapidos: entero = 0
+
+            // Mientras haya saldo en la SUBE
+            Mientras saldoSUBE >= 60
+            // Solicitar tipo de colectivo
+            Escribir("Seleccione tipo de colectivo (1: Común, 2: Rápido):")
+            Leer(tipoColectivo)
+
+            // Realizar el viaje según el tipo de colectivo seleccionado
+            Si tipoColectivo == 1
+            saldoSUBE = saldoSUBE - 60
+            viajesComunes = viajesComunes + 1
+            Sino
+            saldoSUBE = saldoSUBE - 100
+            viajesRapidos = viajesRapidos + 1
+            Fin Si
+
+            Fin Mientras
+
+            // Mostrar estadísticas de viajes
+            Escribir("Viajes realizados con colectivo común: " + viajesComunes)
+            Escribir("Viajes realizados con colectivo rápido: " + viajesRapidos)
+            Escribir("Total de viajes realizados: " + (viajesComunes + viajesRapidos))
+            Fin
+            */
+}
+}
 }
