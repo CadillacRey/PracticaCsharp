@@ -45,49 +45,55 @@ namespace TareaClase13FinalCarrito
                 var linkCelularElegido = driver.FindElement(By.LinkText(textCelularElegido));
                 linkCelularElegido.Click();
 
+                driver.FindElement(By.Id("add-to-cart-button-20")).Click();
+                driver.FindElement(By.CssSelector(".cart-label")).Click();
+                driver.FindElement(By.Id("termsofservice")).Click();
+                driver.FindElement(By.Id("checkout")).Click();
+                driver.FindElement(By.CssSelector(".checkout-as-guest-button")).Click();
 
-                var pathAgregarCarrito = "//button[@id='add-to-cart-button-20']";
-                wait.Until(d => d.FindElement(By.XPath(pathAgregarCarrito)));
-                var botonAgregarCarrito = driver.FindElement(By.XPath(pathAgregarCarrito));
-                botonAgregarCarrito.Click();
+              
+                //var pathAgregarCarrito = "//button[@id='add-to-cart-button-20']";
+                //wait.Until(d => d.FindElement(By.XPath(pathAgregarCarrito)));
+                //var botonAgregarCarrito = driver.FindElement(By.XPath(pathAgregarCarrito));
+                //botonAgregarCarrito.Click();
 
 
 
-                var wait2 = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+                //var wait2 = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
                 //Esto lo encontre con el IDE
-                driver.FindElement(By.CssSelector(".cart-button")).Click();
+                //driver.FindElement(By.CssSelector(".cart-button")).Click();
                 //var irAlCarrito = "//button[@ class='button-1 cart-button']";
                 //wait.Until(d=> d.FindElement(By.XPath(irAlCarrito)));
                 //var botonIrAlCarrito = driver.FindElement(By.XPath(irAlCarrito));
                 //botonIrAlCarrito.Click();  para comentar cntrl k c y descomentar control k q 
 
 
-                //seleccionamos el boton
-                IWebElement boton = driver.FindElement(By.XPath("//input[@class='button']"));
-
-                //hacemos click en el boton
-                boton.Click();
-
-                try // intenta buscar por etiqueta
+                driver.FindElement(By.CssSelector(".checkout-as-guest-button")).Click();
+                var wait2 = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+                driver.FindElement(By.Id("BillingNewAddress_FirstName")).Click();
+                driver.FindElement(By.Id("BillingNewAddress_FirstName")).SendKeys("Emanuel");
+                driver.FindElement(By.Id("BillingNewAddress_LastName")).SendKeys("Reynoso");
+                driver.FindElement(By.Id("BillingNewAddress_Email")).SendKeys("reynosoemanuel04@gmail.com");
+                driver.FindElement(By.Id("BillingNewAddress_Company")).SendKeys("E-corp");
+                driver.FindElement(By.Id("BillingNewAddress_CountryId")).Click();
                 {
-                    IWebElement resultado = driver.FindElement(By.XPath("//span[@id='output']"));
-
-                    //afirmacion de si el resultado es 194
-                    Assert.AreEqual(resultado.Text, "194");
-
+                    var dropdown = driver.FindElement(By.Id("BillingNewAddress_CountryId"));
+                    dropdown.FindElement(By.XPath("//option[. = 'Argentina']")).Click();
                 }
-                //error por no se encuentra la etiqueta
-                catch (NoSuchElementException ex)
-                {
-                    Assert.Fail("La etiqueta buscada no es la correcta");
-
-                }
-                //error general
-                catch (Exception ex)
-                {
-                    Assert.Fail($"Error general. Mensaje: {ex.Message}");
-
-                }
+                driver.FindElement(By.Id("BillingNewAddress_City")).Click();
+                driver.FindElement(By.Id("BillingNewAddress_City")).SendKeys("Buenos Aires");
+                driver.FindElement(By.Id("BillingNewAddress_Address1")).Click();
+                driver.FindElement(By.Id("BillingNewAddress_Address1")).SendKeys("Av. Siempre Viva 1234");
+                driver.FindElement(By.Id("BillingNewAddress_ZipPostalCode")).Click();
+                driver.FindElement(By.Id("BillingNewAddress_ZipPostalCode")).SendKeys("1753");
+                driver.FindElement(By.Id("BillingNewAddress_PhoneNumber")).Click();
+                driver.FindElement(By.Id("BillingNewAddress_PhoneNumber")).SendKeys("1111111111");
+                driver.FindElement(By.Name("save")).Click();
+                driver.FindElement(By.CssSelector(".shipping-method-next-step-button")).Click();
+                driver.FindElement(By.CssSelector(".payment-method-next-step-button")).Click();
+                driver.FindElement(By.CssSelector(".payment-info-next-step-button")).Click();
+                driver.FindElement(By.CssSelector(".confirm-order-next-step-button")).Click();
+                driver.FindElement(By.CssSelector(".order-completed-continue-button")).Click();
 
                 //falta poner el tiempo de espera para que se vea el resultado
 
