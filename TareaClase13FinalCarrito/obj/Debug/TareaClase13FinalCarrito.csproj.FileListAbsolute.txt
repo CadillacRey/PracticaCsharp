@@ -20,3 +20,25 @@ F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrit
 F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.csproj.CopyComplete
 F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.dll
 F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.pdb
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\selenium-manager\linux\selenium-manager
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\selenium-manager\macos\selenium-manager
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\TareaClase13FinalCarrito.dll.config
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\TareaClase13FinalCarrito.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\TareaClase13FinalCarrito.pdb
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\Newtonsoft.Json.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\nunit.framework.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\System.Drawing.Common.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\WebDriver.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\WebDriver.Support.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\Newtonsoft.Json.xml
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\nunit.framework.xml
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\System.Drawing.Common.pdb
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\System.Drawing.Common.xml
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\WebDriver.xml
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\WebDriver.Support.xml
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.csproj.AssemblyReference.cache
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.csproj.CoreCompileInputs.cache
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.csproj.CopyComplete
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.pdb

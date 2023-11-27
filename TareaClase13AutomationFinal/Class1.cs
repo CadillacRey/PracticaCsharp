@@ -1,20 +1,15 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Firefox;
-using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
-
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using System.Linq.Expressions;
-using System.Reflection.Emit;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Xml.Linq;
+
 
 namespace TareaClase13AutomationFinal
 {
@@ -30,8 +25,7 @@ namespace TareaClase13AutomationFinal
                 IWebDriver driver = new ChromeDriver();
                 //Maximizo Ventana
                 driver.Manage().Window.Maximize();
-                var options = new ChromeOptions();
-
+                //var options = new ChromeOptions();
                 // Desactiva el autocompletado de direcciones
                 //options.AddUserProfilePreference("profile.address_autocomplete_enabled", false);
                 //IWebDriver driver1 = new ChromeDriver(options);
@@ -42,7 +36,7 @@ namespace TareaClase13AutomationFinal
                 var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(3));
                     driver.Navigate().GoToUrl("https://demo.nopcommerce.com/");
                     //Borro las cookies
-                    driver.Manage().Cookies.DeleteAllCookies();
+                    //driver.Manage().Cookies.DeleteAllCookies();
                     driver.FindElement(By.LinkText("Electronics")).Click();
                     driver.FindElement(By.LinkText("Cell phones")).Click();
                     driver.FindElement(By.CssSelector(".item-box:nth-child(3) .details a")).Click();
