@@ -1,14 +1,20 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.Interactions;
 using OpenQA.Selenium.Support.UI;
+
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Reflection.Emit;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace TareaClase13AutomationFinal
 {
@@ -22,14 +28,19 @@ namespace TareaClase13AutomationFinal
             {
                 //Inicializo Chrome
                 IWebDriver driver = new ChromeDriver();
-                var chromeOptions = new ChromeOptions();
                 //Maximizo Ventana
                 driver.Manage().Window.Maximize();
-                var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(3));
-                driver.Navigate().GoToUrl("https://demo.nopcommerce.com/");
-                // Desactivar el autocompletado de contraseñas mediante JavaScript
+                var options = new ChromeOptions();
 
-                    bool ventanaEmergente = false;
+                // Desactiva el autocompletado de direcciones
+                //options.AddUserProfilePreference("profile.address_autocomplete_enabled", false);
+                //IWebDriver driver1 = new ChromeDriver(options);
+                //driver.Navigate().GoToUrl("chrome://settings/addresses");
+                //// Ejecuta un script JavaScript para desactivar el autocompletado de direcciones
+                //IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+                //js.ExecuteScript("document.querySelector('input[type=\"text\"][autocomplete=\"address-line1\"]').autocomplete = 'off';");
+                var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(3));
+                    driver.Navigate().GoToUrl("https://demo.nopcommerce.com/");
                     //Borro las cookies
                     driver.Manage().Cookies.DeleteAllCookies();
                     driver.FindElement(By.LinkText("Electronics")).Click();
@@ -51,7 +62,6 @@ namespace TareaClase13AutomationFinal
                         var dropdown = driver.FindElement(By.Id("BillingNewAddress_CountryId"));
                         dropdown.FindElement(By.XPath("//option[. = 'Argentina']")).Click();
                     }
-
                     driver.FindElement(By.Id("BillingNewAddress_City")).Click();
                     driver.FindElement(By.Id("BillingNewAddress_City")).SendKeys("Buenos Aires");
                     driver.FindElement(By.Id("BillingNewAddress_Address1")).Click();
@@ -62,25 +72,18 @@ namespace TareaClase13AutomationFinal
                     driver.FindElement(By.Id("BillingNewAddress_PhoneNumber")).SendKeys("1111111111");
                     driver.FindElement(By.Name("save")).Click();
                     driver.FindElement(By.CssSelector(".shipping-method-next-step-button")).Click();
-                if (ventanaEmergente == true)
-                {
-                    var chromeOptions = new ChromeOptions();
-                    chromeOptions.AddAdditionalCapability("unhandledPromptBehavior", "dismiss"); // Puedes cambiar "dismiss" por otros valores según tus necesidades
-                    IWebDriver driver = new ChromeDriver(chromeOptions);
-                }
-
-                driver.FindElement(By.CssSelector(".payment-method-next-step-button")).Click();
+                    driver.FindElement(By.CssSelector(".payment-method-next-step-button")).Click();
                     driver.FindElement(By.CssSelector(".payment-info-next-step-button")).Click();
                     driver.FindElement(By.CssSelector(".confirm-order-next-step-button")).Click();
                     driver.FindElement(By.CssSelector(".order-completed-continue-button")).Click();
-
-                //Cerrar el chrome
-                driver.Close();
-                //Terminar el proceso
-                driver.Quit();
+                    //Cerrar el chrome
+                    driver.Close();
+                    //Terminar el proceso
+                    driver.Quit();
             }
         }
+    }
 
-    } 
+ } 
 
-}
+

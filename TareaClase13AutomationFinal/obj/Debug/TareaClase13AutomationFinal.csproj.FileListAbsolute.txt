@@ -18,3 +18,23 @@ F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13Automati
 F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.csproj.CopyComplete
 F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.dll
 F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.pdb
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.csproj.AssemblyReference.cache
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.csproj.CoreCompileInputs.cache
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.pdb
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\selenium-manager\linux\selenium-manager
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\selenium-manager\macos\selenium-manager
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\selenium-manager\windows\selenium-manager.exe
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\TareaClase13AutomationFinal.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\TareaClase13AutomationFinal.pdb
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\Newtonsoft.Json.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\nunit.framework.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Drawing.Common.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\WebDriver.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\WebDriver.Support.dll
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\Newtonsoft.Json.xml
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\nunit.framework.xml
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Drawing.Common.xml
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\WebDriver.xml
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\WebDriver.Support.xml
+C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.csproj.CopyComplete
