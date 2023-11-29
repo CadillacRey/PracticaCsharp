@@ -76,7 +76,7 @@ namespace TestingClase12Automation
             [Test]
             public void test2()
             {
-                //Assert.Fail();
+                Assert.Pass();
             }
 
         }

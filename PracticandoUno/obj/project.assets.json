@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\emreynoso\\.nuget\\packages\\": {}
+    "C:\\Users\\Ema\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TESTING AUTOMATION\\PracticaCsharp\\PracticandoUno\\PracticandoUno.csproj",
+      "projectUniqueName": "F:\\GIT\\PracticaCsharp\\PracticandoUno\\PracticandoUno.csproj",
       "projectName": "PracticandoUno",
-      "projectPath": "C:\\TESTING AUTOMATION\\PracticaCsharp\\PracticandoUno\\PracticandoUno.csproj",
-      "packagesPath": "C:\\Users\\emreynoso\\.nuget\\packages\\",
-      "outputPath": "C:\\TESTING AUTOMATION\\PracticaCsharp\\PracticandoUno\\obj\\",
+      "projectPath": "F:\\GIT\\PracticaCsharp\\PracticandoUno\\PracticandoUno.csproj",
+      "packagesPath": "C:\\Users\\Ema\\.nuget\\packages\\",
+      "outputPath": "F:\\GIT\\PracticaCsharp\\PracticandoUno\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\emreynoso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ema\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -79,7 +79,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -38,3 +38,6 @@ C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\Syste
 C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\WebDriver.xml
 C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\WebDriver.Support.xml
 C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.csproj.CopyComplete
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\nunit.framework.legacy.dll
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Threading.Tasks.Extensions.dll
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\nunit.framework.legacy.xml
