@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gotwoai1hZbSG+MJE8EBG86Nj+lF6UxQSpQq4GUiomWt34mspQi8OUGp4ELhn1pqcJQlzVqqNhEEwmnDesX5Gg==",
+  "dgSpecHash": "5QTKgeKJvJ9lMXhAFd8DpuBYj7S1DQVbsee2MXuOalJCMYyH8D/YoVERM2Vnki0XEc6U6tRieu7JCXPqYhy7vA==",
   "success": true,
   "projectFilePath": "F:\\GIT\\PracticaCsharp\\PracticandoUno\\PracticandoUno.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Ema\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Ema\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Ema\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Ema\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

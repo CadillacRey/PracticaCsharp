@@ -63,15 +63,15 @@ namespace TareaClase13AutomationFinal
                 driver.FindElement(By.Id("BillingNewAddress_PhoneNumber")).SendKeys("111111111111111");
                 driver.FindElement(By.Name("save")).Click();
                 //Agrego la espera por cada boton
-                wait2.Until(ExpectedConditions.ElementToBeClickable(By.XPath("//button[@class='button-1 shipping-method-next-step-button']")));
+                wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath("//button[@class='button-1 shipping-method-next-step-button']")));
                 driver.FindElement(By.XPath("//button[@class='button-1 shipping-method-next-step-button']")).Click();
-                wait3.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".payment-method-next-step-button")));
+                wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".payment-method-next-step-button")));
                 driver.FindElement(By.CssSelector(".payment-method-next-step-button")).Click();
-                wait4.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".payment-info-next-step-button")));
+                wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".payment-info-next-step-button")));
                 driver.FindElement(By.CssSelector(".payment-info-next-step-button")).Click();
-                wait5.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".confirm-order-next-step-button")));
+                wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".confirm-order-next-step-button")));
                 driver.FindElement(By.CssSelector(".confirm-order-next-step-button")).Click();
-                wait6.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".order-completed-continue-button")));
+                wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".order-completed-continue-button")));
                 driver.FindElement(By.CssSelector(".order-completed-continue-button")).Click();
                 //Cerrar el chrome
                 driver.Close();
