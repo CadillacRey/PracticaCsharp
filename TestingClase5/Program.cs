@@ -2,20 +2,14 @@
 using System.Collections.Generic;
 
 
-
 namespace Program
 {
-
     static class Program
     {
-
         static void Main(string[] args)
         {
-
             //Calculadora creada en clase
             //Capaz con la logica crear un forms
-
-
             bool quieroSalir = false;
             const int cantDeVeces = 35;
 
@@ -24,27 +18,20 @@ namespace Program
                 quieroSalir = Calculadora(quieroSalir, cantDeVeces);
             }
         }
-
         private static bool Calculadora(bool quieroSalir, int cantDeVeces)
         {
             int operador1, operador2, tipoOperacion;
             int resultado = 0;
-
             Console.Clear();
             try
             {
                 Encabezado(cantDeVeces);
-
                 Console.WriteLine("Ingrese primer operador:");
                 operador1 = int.Parse(Console.ReadLine());
-
                 Console.WriteLine("Ingrese segundo operador:");
                 operador2 = int.Parse(Console.ReadLine());
-
                 Menu();
-
                 tipoOperacion = int.Parse(Console.ReadLine());
-
                 if (tipoOperacion <= 4 && tipoOperacion >= 0)
                 {
                     switch (tipoOperacion)
@@ -64,7 +51,6 @@ namespace Program
                         case 0:
                             quieroSalir = true;
                             break;
-
                     }
 
                     if (quieroSalir == false)
@@ -75,14 +61,12 @@ namespace Program
                         DibujarLinea("*", cantDeVeces);
                         Console.WriteLine();
                         Console.ForegroundColor = ConsoleColor.White;
-
                     }
                     else
                     {
 
                         Console.WriteLine("Gracias por usar la calculadora");
                     }
-
                 }
                 else
                 {
@@ -101,7 +85,6 @@ namespace Program
             Console.ReadKey();
             return quieroSalir;
         }
-
         private static void Menu()
         {
             Console.WriteLine("Ingrese la opcion requerida:");
@@ -111,7 +94,6 @@ namespace Program
             Console.WriteLine("-4- Division");
             Console.WriteLine("-0- Salir");
         }
-
         private static void Encabezado(int cantDeVeces)
         {
             Console.ForegroundColor = ConsoleColor.Green;
@@ -121,7 +103,6 @@ namespace Program
             Console.WriteLine();
             Console.ForegroundColor = ConsoleColor.White;
         }
-
         #region operaciones
         public static int Sumar(int numero1, int numero2)
         {
@@ -151,13 +132,6 @@ namespace Program
             }
             Console.WriteLine();
         }
-
-        
-
-
     }
-
-    
-
 }
 
