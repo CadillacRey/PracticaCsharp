@@ -1,0 +1,2 @@
+F:\GIT\PracticaCsharp\Telemetria\obj\Debug\Telemetria.csproj.AssemblyReference.cache
+F:\GIT\PracticaCsharp\Telemetria\obj\Debug\Telemetria.csproj.CoreCompileInputs.cache

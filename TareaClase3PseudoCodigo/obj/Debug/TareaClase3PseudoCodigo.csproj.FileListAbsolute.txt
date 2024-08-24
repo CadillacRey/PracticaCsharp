@@ -1,0 +1,7 @@
+F:\GIT\PracticaCsharp\TareaClase3PseudoCodigo\bin\Debug\TareaClase3PseudoCodigo.exe.config
+F:\GIT\PracticaCsharp\TareaClase3PseudoCodigo\bin\Debug\TareaClase3PseudoCodigo.exe
+F:\GIT\PracticaCsharp\TareaClase3PseudoCodigo\bin\Debug\TareaClase3PseudoCodigo.pdb
+F:\GIT\PracticaCsharp\TareaClase3PseudoCodigo\obj\Debug\TareaClase3PseudoCodigo.csproj.AssemblyReference.cache
+F:\GIT\PracticaCsharp\TareaClase3PseudoCodigo\obj\Debug\TareaClase3PseudoCodigo.csproj.CoreCompileInputs.cache
+F:\GIT\PracticaCsharp\TareaClase3PseudoCodigo\obj\Debug\TareaClase3PseudoCodigo.exe
+F:\GIT\PracticaCsharp\TareaClase3PseudoCodigo\obj\Debug\TareaClase3PseudoCodigo.pdb

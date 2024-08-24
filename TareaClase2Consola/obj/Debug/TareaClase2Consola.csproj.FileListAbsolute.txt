@@ -11,3 +11,4 @@ C:\TESTING AUTOMATION\TestingAutomation\TareaClase2Consola\obj\Debug\TareaClase2
 C:\TESTING AUTOMATION\TestingAutomation\TareaClase2Consola\obj\Debug\TareaClase2Consola.csproj.CoreCompileInputs.cache
 C:\TESTING AUTOMATION\TestingAutomation\TareaClase2Consola\obj\Debug\TareaClase2Consola.exe
 C:\TESTING AUTOMATION\TestingAutomation\TareaClase2Consola\obj\Debug\TareaClase2Consola.pdb
+F:\GIT\PracticaCsharp\TareaClase2Consola\obj\Debug\TareaClase2Consola.csproj.AssemblyReference.cache

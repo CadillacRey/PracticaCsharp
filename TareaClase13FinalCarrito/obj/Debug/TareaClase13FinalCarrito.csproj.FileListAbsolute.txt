@@ -17,7 +17,6 @@ F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\WebDriver.xml
 F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\WebDriver.Support.xml
 F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.csproj.AssemblyReference.cache
 F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.csproj.CoreCompileInputs.cache
-F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.csproj.CopyComplete
 F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.dll
 F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.pdb
 C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\bin\Debug\selenium-manager\linux\selenium-manager
@@ -42,3 +41,4 @@ C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaCla
 C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.csproj.CopyComplete
 C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.dll
 C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaClase13FinalCarrito.pdb
+F:\GIT\PracticaCsharp\TareaClase13FinalCarrito\obj\Debug\TareaCla.9349299D.Up2Date

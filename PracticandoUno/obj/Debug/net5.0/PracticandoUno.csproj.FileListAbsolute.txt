@@ -14,3 +14,4 @@ F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\ref\PracticandoUno.dll
 F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\PracticandoUno.pdb
 F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\PracticandoUno.genruntimeconfig.cache
 F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\refint\PracticandoUno.dll
+F:\GIT\PracticaCsharp\PracticandoUno\obj\Debug\net5.0\PracticandoUno.sourcelink.json

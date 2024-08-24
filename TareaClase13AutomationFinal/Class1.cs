@@ -1,17 +1,8 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Interactions;
-using OpenQA.Selenium.Support;
 using OpenQA.Selenium.Support.UI;
 using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-
 
 namespace TareaClase13AutomationFinal
 {
@@ -20,21 +11,26 @@ namespace TareaClase13AutomationFinal
         [TestFixture]
         public class PrimerTest
         {
-            //Caso de Test con 2 compras, Celular y Libro, como Guest. 
             [Test]
-            public void test1()
+            public void Test1()
             {
-
-                //Inicializo Chrome
+                // Inicializo Chrome
                 ChromeOptions chromeOptions = new ChromeOptions();
 
-                //Deshabilito los guardados de chrome
+                // Deshabilito los guardados de chrome
                 chromeOptions.AddUserProfilePreference("disable-popup-blocking", true);
                 chromeOptions.AddUserProfilePreference("autofill.profile_enabled", false);
+
+                // Asegúrate de que el nombre de la variable 'driver' no esté en conflicto
                 IWebDriver driver = new ChromeDriver(chromeOptions);
-                //Maximizo la ventana
+
+                // Maximizo la ventana
                 driver.Manage().Window.Maximize();
                 driver.Navigate().GoToUrl("https://demo.nopcommerce.com/");
+
+                // Inicializo WebDriverWait
+                WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+
                 driver.FindElement(By.LinkText("Electronics")).Click();
                 driver.FindElement(By.LinkText("Cell phones")).Click();
                 driver.FindElement(By.CssSelector(".item-box:nth-child(3) .product-box-add-to-cart-button")).Click();
@@ -50,11 +46,11 @@ namespace TareaClase13AutomationFinal
                 driver.FindElement(By.Id("BillingNewAddress_Email")).SendKeys("reynosoemanuel04@gmail.com");
                 driver.FindElement(By.Id("BillingNewAddress_Company")).SendKeys("E-Corp");
                 driver.FindElement(By.Id("BillingNewAddress_CountryId")).Click();
-                {
-                    //Elemento desplegable
-                    var dropdown = driver.FindElement(By.Id("BillingNewAddress_CountryId"));
-                    dropdown.FindElement(By.XPath("//option[. = 'Argentina']")).Click();
-                }
+
+                // Elemento desplegable
+                var dropdown = driver.FindElement(By.Id("BillingNewAddress_CountryId"));
+                dropdown.FindElement(By.XPath("//option[. = 'Argentina']")).Click();
+
                 driver.FindElement(By.Id("BillingNewAddress_City")).Click();
                 driver.FindElement(By.Id("BillingNewAddress_City")).SendKeys("Buenos Aires");
                 driver.FindElement(By.Id("BillingNewAddress_Address1")).Click();
@@ -62,25 +58,28 @@ namespace TareaClase13AutomationFinal
                 driver.FindElement(By.Id("BillingNewAddress_ZipPostalCode")).SendKeys("1753");
                 driver.FindElement(By.Id("BillingNewAddress_PhoneNumber")).SendKeys("111111111111111");
                 driver.FindElement(By.Name("save")).Click();
-                //Agrego la espera por cada boton
-                wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath("//button[@class='button-1 shipping-method-next-step-button']")));
+
+                // Agrego la espera por cada botón usando lambda
+                wait.Until(d => d.FindElement(By.XPath("//button[@class='button-1 shipping-method-next-step-button']")).Displayed);
                 driver.FindElement(By.XPath("//button[@class='button-1 shipping-method-next-step-button']")).Click();
-                wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".payment-method-next-step-button")));
+
+                wait.Until(d => d.FindElement(By.CssSelector(".payment-method-next-step-button")).Displayed);
                 driver.FindElement(By.CssSelector(".payment-method-next-step-button")).Click();
-                wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".payment-info-next-step-button")));
+
+                wait.Until(d => d.FindElement(By.CssSelector(".payment-info-next-step-button")).Displayed);
                 driver.FindElement(By.CssSelector(".payment-info-next-step-button")).Click();
-                wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".confirm-order-next-step-button")));
+
+                wait.Until(d => d.FindElement(By.CssSelector(".confirm-order-next-step-button")).Displayed);
                 driver.FindElement(By.CssSelector(".confirm-order-next-step-button")).Click();
-                wait.Until(ExpectedConditions.ElementToBeClickable(By.CssSelector(".order-completed-continue-button")));
+
+                wait.Until(d => d.FindElement(By.CssSelector(".order-completed-continue-button")).Displayed);
                 driver.FindElement(By.CssSelector(".order-completed-continue-button")).Click();
-                //Cerrar el chrome
+
+                // Cerrar el chrome
                 driver.Close();
-                //Terminar el proceso
+                // Terminar el proceso
                 driver.Quit();
             }
-                 
         }
     }
 }
-
-

@@ -5,3 +5,10 @@ C:\TESTING AUTOMATION\TestingAutomation\TestingClase4\obj\Debug\TestingClase4.cs
 C:\TESTING AUTOMATION\TestingAutomation\TestingClase4\obj\Debug\TestingClase4.csproj.CoreCompileInputs.cache
 C:\TESTING AUTOMATION\TestingAutomation\TestingClase4\obj\Debug\TestingClase4.exe
 C:\TESTING AUTOMATION\TestingAutomation\TestingClase4\obj\Debug\TestingClase4.pdb
+F:\GIT\PracticaCsharp\TestingClase4\bin\Debug\TestingClase4.exe.config
+F:\GIT\PracticaCsharp\TestingClase4\bin\Debug\TestingClase4.exe
+F:\GIT\PracticaCsharp\TestingClase4\bin\Debug\TestingClase4.pdb
+F:\GIT\PracticaCsharp\TestingClase4\obj\Debug\TestingClase4.csproj.AssemblyReference.cache
+F:\GIT\PracticaCsharp\TestingClase4\obj\Debug\TestingClase4.csproj.CoreCompileInputs.cache
+F:\GIT\PracticaCsharp\TestingClase4\obj\Debug\TestingClase4.exe
+F:\GIT\PracticaCsharp\TestingClase4\obj\Debug\TestingClase4.pdb

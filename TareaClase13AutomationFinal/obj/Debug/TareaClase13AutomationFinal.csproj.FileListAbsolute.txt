@@ -15,7 +15,6 @@ F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\WebDriver.xml
 F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\WebDriver.Support.xml
 F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.csproj.AssemblyReference.cache
 F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.csproj.CoreCompileInputs.cache
-F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.csproj.CopyComplete
 F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.dll
 F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.pdb
 C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaClase13AutomationFinal.csproj.AssemblyReference.cache
@@ -41,3 +40,17 @@ C:\TESTING AUTOMATION\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\Tarea
 F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\nunit.framework.legacy.dll
 F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Threading.Tasks.Extensions.dll
 F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\nunit.framework.legacy.xml
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\TareaClase13AutomationFinal.dll.config
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Buffers.dll
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Memory.dll
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Numerics.Vectors.dll
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.ValueTuple.dll
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Buffers.xml
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Drawing.Common.pdb
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Memory.xml
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Numerics.Vectors.xml
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.Threading.Tasks.Extensions.xml
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\bin\Debug\System.ValueTuple.xml
+F:\GIT\PracticaCsharp\TareaClase13AutomationFinal\obj\Debug\TareaCla.ED8E3F6C.Up2Date

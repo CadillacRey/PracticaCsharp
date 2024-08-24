@@ -19,6 +19,6 @@ F:\GIT\PracticaCsharp\TestingClase12Automation\bin\Debug\System.Drawing.Common.x
 F:\GIT\PracticaCsharp\TestingClase12Automation\bin\Debug\WebDriver.xml
 F:\GIT\PracticaCsharp\TestingClase12Automation\obj\Debug\TestingClase12Automation.csproj.AssemblyReference.cache
 F:\GIT\PracticaCsharp\TestingClase12Automation\obj\Debug\TestingClase12Automation.csproj.CoreCompileInputs.cache
-F:\GIT\PracticaCsharp\TestingClase12Automation\obj\Debug\TestingClase12Automation.csproj.CopyComplete
 F:\GIT\PracticaCsharp\TestingClase12Automation\obj\Debug\TestingClase12Automation.dll
 F:\GIT\PracticaCsharp\TestingClase12Automation\obj\Debug\TestingClase12Automation.pdb
+F:\GIT\PracticaCsharp\TestingClase12Automation\obj\Debug\TestingC.B6566C9F.Up2Date
